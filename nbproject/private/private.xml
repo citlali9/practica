@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/src/java/pojo/Persona.java</file>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/test/TestingPersonaDAO.java</file>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/src/java/dao/PersonaDAO.java</file>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/src/java/hbm/HibernateUtil.java</file>
+            <file>file:/C:/Users/Citlali/Desktop/Practica1BDHibernate-master/src/java/pojo/TipoPersona.java</file>
+        </group>
+    </open-files>
+</project-private>

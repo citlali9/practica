@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+  <session-factory>
+        <!--indicamos el dialecto de comunicacion la seunda indica que driver necesitas para esa comunicacion
+        la tecera el protocolo, el puerto, el documento el tiempo etc y el cuarto y quinto son el user y pass-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property> 
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/generationHibernate?zeroDateTimeBehavior=convertToNull</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        
+        <!--que paquetes utilizaremos para configurar, se cargan en memoria-->
+        <mapping class="pojo.Persona"/>
+        <mapping class="pojo.TipoPersona"/>
+        
+    </session-factory>
+</hibernate-configuration>
